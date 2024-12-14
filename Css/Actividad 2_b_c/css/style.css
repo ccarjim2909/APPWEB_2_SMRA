@@ -1,0 +1,151 @@
+/*-----------General----------*/
+body{
+    margin: 0;
+    background-color: aliceblue;
+
+}
+
+
+
+/*-----------Header----------*/
+
+
+.cabecera{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.cabecera__contacto{
+    width: 100%;
+    background-color: black;
+}
+
+.cabecera__contacto__form__contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.cabecera__contacto__form__contenedor__div{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.cabecera__contacto__form__contenedor__div__email{
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+    border: 0;
+}
+
+.cabecera__contacto__form__contenedor__div__boton{
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+.cabecera__contacto__form__contenedor__div__boton:hover{
+    background-color: green;
+    color: black;
+}
+
+/*-----------Main----------*/
+
+.main{
+    display: flex;
+    margin: 0;
+}
+
+.main__art1{
+    width: 70%;
+}
+
+.main__art1__titulo{
+    padding-top: 3rem;
+    margin: 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: url(/img/logo.jpg);
+    background-repeat: repeat;
+    background-size: 50rem;
+    background-position: left;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    color: black; 
+}
+
+
+.main__art2 {
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.main__art2__titulo {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main__art2__nav__lista {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.main__art2__nav__lista__enlace {
+    display: flex; 
+    margin-bottom: 3rem; 
+    padding: 1rem;
+    text-decoration: none; 
+    color: black; 
+    font-size: 1.3rem; 
+}
+
+
+
+.main__art2__nav__lista__enlace:hover {
+    font-weight: bold;
+}
+
+
+/*-----------Footer----------*/
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.footer__lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__lista__enlace{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footer__lista__enlace:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
