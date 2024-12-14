@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.cabecera {
+    background-color: black;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+/* Logo */
+.cabecera__logo {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.cabecera__logo_img{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+/* Palabras */
+.cabecera__nav {
+    margin-top: 2rem;
+}
+
+.cabecera__nav__lista {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background-color: grey;
+
+}
+
+.cabecera__nav__lista__enlace {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+}
+
+
