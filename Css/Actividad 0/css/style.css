@@ -21,7 +21,7 @@ body{
 
 /* tocar imagen */
 .cabecera__logo{
-    width: 30%;
+    width: 20%;
 }
 
 
@@ -34,6 +34,7 @@ body{
 .cabecera__nav__lista__enlace{
     margin-right: 1.5rem;
     color: aliceblue;
+    font-size: 1.5rem;
 }
 
 /* modificas solo lo que seleccionas */
@@ -56,7 +57,6 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
-    padding-bottom: 3rem;
     align-items: center;
 }
 
@@ -135,7 +135,7 @@ a{
 /*Crear un nuevo contenedor para tener el mismo tamaño de los hijos*/
 .pricipal__contacto__form__contenedor__div{
     display: flex;
-    width: 30%;
+    width: 15%;
     flex-direction: column;
 }
 
@@ -145,8 +145,9 @@ quede centrado*/
     width: 100%;
     text-align: center;
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.95rem;
     margin-bottom: 2.5rem;
+
 }
 
 .principal__contacto__form__contenedor__div__email{
@@ -171,3 +172,31 @@ quede centrado*/
     background-color: green;
     color: black;
 }
+
+
+/*-----------Footer----------*/
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.footer__lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__lista__enlace{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footer__lista__enlace:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
