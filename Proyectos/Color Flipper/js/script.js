@@ -15,8 +15,9 @@ const letras = document.querySelector(".body__main__section__color-fondo")
 function color_fondo() {
 
     // Generar un numero aleatorio para elegir una posicion de nuestra lista
-    const randomColor = colores[Math.floor(Math.random() * colores.length)];
-    
+    const randomColor = colores[Math.floor(Math.random() * colores.length)]; /* Variable que elige un numero entre 0 y 1 y 
+                                                                            luego se multiplica por el numero que queremos de maximo 
+                                                                            y sale uno entre ellos */
     // Aplicar colores
     body.style.backgroundColor = randomColor; // Cambia el color de fondo de la clase hex__body__main__btn
     btn.style.backgroundColor = randomColor; // Cambia el color de fondo de la clase hex__body__main__btn
