@@ -16,7 +16,9 @@ function color_fondo() {
 
     // Creamos un for para generar 6 caracteres aleatorios para el color hexadecimal
     for (let numero = 0; numero < 6; numero++) {
-        const randomColor = colores[Math.floor(Math.random() * colores.length)];
+        const randomColor = colores[Math.floor(Math.random() * colores.length)];/* Variable que elige un numero entre 0 y 1 y 
+                                                                            luego se multiplica por el numero que queremos de maximo 
+                                                                            y sale uno entre ellos */
         hex += randomColor;  // Concatenamos cada valor a la variable hex
     }
 
