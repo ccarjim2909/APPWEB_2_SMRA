@@ -4,8 +4,8 @@ const lista = document.querySelector(".body__main__lista");
 
 // Agregar una tarea
 function addTask(event) {
-    event.preventDefault(); // Evitar el envío del formulario
-    const tarea = texto.value; // Obtener y limpiar el texto
+    event.preventDefault(); // No se para que es pero funciona con esto
+    const tarea = texto.value; 
 
     if (tarea != ""){ // Entra si no esté vacia
 
