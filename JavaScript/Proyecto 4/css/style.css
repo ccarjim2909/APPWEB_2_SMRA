@@ -1,0 +1,37 @@
+.body{
+    background-color: rgb(211, 211, 211);
+
+}
+
+.body__main{
+    margin: 1rem;
+    background-color: rgb(238, 238, 210);
+}
+
+.body__main__titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+
+
+}
+
+.body__main__form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3.5rem;
+}
+
+.body__main__form__cuadrotext{
+    border-radius: 0.45rem;
+    width: 15rem;
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+}
+
+.body__main__form__boton{
+    border-radius: 0.45rem;
+    width: 10rem;
+    background-color: rgb(24, 73, 24);
+    color: antiquewhite;
+}
