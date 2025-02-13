@@ -1,8 +1,19 @@
+/*Variables globales*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --fuente: "Montserrat", serif;
+    
+}
+
+
 /*body simple*/
 
 .body{
     background-color: red;
-    font-family: "Montserrat", serif;;
+    font-family: var(--fuente);
     margin: 0rem;
 }
 
@@ -82,7 +93,7 @@
 
 .hex__body{
     background-color: #3DCCC7;
-    font-family: "Montserrat", serif;;
+    font-family: var(--fuente);
     margin: 0rem;
 }
 
@@ -102,7 +113,6 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-
 
 
 
