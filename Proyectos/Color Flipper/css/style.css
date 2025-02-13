@@ -1,11 +1,13 @@
 /*Variables globales*/
+:root{
+   --fuente: "Montserrat", serif;
+}
+
 
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    --fuente: "Montserrat", serif;
-    
+    margin: 0;  
 }
 
 
