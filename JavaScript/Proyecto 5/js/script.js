@@ -1,5 +1,5 @@
 
-const texto = document.querySelector(".body__main__form__cuadrotext");
+const texto = document.querySelector(".body__main__form__cuadro__text");
 const btn = document.querySelector(".body__main__form__boton");
 const lista = document.querySelector(".body__main__lista");
 const array = [];
@@ -50,15 +50,22 @@ function addTask() {
 
 }
 
+
+// Eveneto para el boton de seleccionar aleatioriamente una tarea y eliminarla
 btn_r.addEventListener("click", function () {
 
-    // Generar un numero aleatorio para elegir una posicion de nuestra lista
-    const tarea_iluminada = array[Math.floor(Math.random() * array.length)]; /* Variable que elige un numero entre 0 y 1 y 
-                                                                            luego se multiplica por el numero que queremos de maximo 
-                                                                            y sale uno entre ellos */
-    tarea_iluminada.style.backgroundColor = "yellow"
-})
+    const tarea_texto = array[Math.floor(Math.random() * array.length)];  // Elegir una tarea aleatoria
 
+    const linea = document.querySelectorAll(".cajaX"); // Buscar en la lista el <li> que tiene este texto
+    
+    linea.forEach(luz => {
+        if (luz.firstChild.textContent == tarea_texto) {
+            luz.style.backgroundColor = "yellow"; // Resalta la tarea
+        } else {
+            luz.style.backgroundColor = ""; // Quita el resaltado de otras tareas
+        }
+    });
+});
 
 
 

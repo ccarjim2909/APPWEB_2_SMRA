@@ -1,4 +1,4 @@
-const texto = document.querySelector(".body__main__form__cuadrotext");
+const texto = document.querySelector(".body__main__form__cuadro__text");
 const btn = document.querySelector(".body__main__form__boton");
 const lista = document.querySelector(".body__main__lista");
 
@@ -12,10 +12,12 @@ function addTask(event) {
         // Crea un nuevo elemento de lista
         const li = document.createElement("li");
         li.textContent = tarea;
+        li.classList.add("cajaX");
 
         // Crea el boton de eliminar
         const btn_borrar = document.createElement("button");
         btn_borrar.textContent = "X";
+        btn_borrar.classList.add("botonX");
 
         // Evento para eliminar
         btn_borrar.addEventListener("click", function() {
