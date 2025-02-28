@@ -1,0 +1,104 @@
+.body{
+    background-image: url(../imgs/fondo.jpg);
+    background-position: center;
+}
+
+.section1{
+    margin: 1rem;
+}
+
+.body__main__titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    color: white;
+}
+
+.body__main__form{
+    display: flex;
+    padding-bottom: 3.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body__main__form__correo{
+    border-radius: 0.45rem;
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.body__main__form__contraseña{
+    border-radius: 0.45rem;
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.body__main__form__nombre{
+    border-radius: 0.45rem;
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.body__main__form__apellido{
+    border-radius: 0.45rem;
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.body__main__form__boton{
+    border-radius: 0.45rem;
+    width: 10rem;
+    background-color: rgb(124, 6, 6);
+    color: antiquewhite;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    
+}
+
+.body__main__section__grommash{
+    opacity: 70%;
+    width: auto;
+    height: 45rem;
+}
+
+.body__main__section__garrosh {
+    opacity: 70%;
+    width: auto;
+    height: 45rem;
+}
+
+.body__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40rem;
+}
+
+.body__footer__texto {
+    font-size: 1rem;
+    color: white;
+}
+
+.body__footer-l {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40rem;
+}
+
+.body__footer-r {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 33.5rem;
+}
+

@@ -1,0 +1,62 @@
+.body {
+    background-image: url(../imgs/fondo.jpg);
+    background-position: center;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.body__section {
+    width: 40%; 
+}
+
+.body__section__nav__ul_li{
+    margin-top: 2rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    border-radius: 0.45rem;
+    background-color: rgb(124, 6, 6);
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.a4{
+    background-color: rgb(194, 117, 2);
+}
+
+.a5{
+    background-color: rgb(73, 221, 85);
+}
+
+.a6{
+    background-color: rgb(72, 35, 160);
+}
+
+.a7{
+    background-color: rgb(9, 87, 9);
+}
+
+.a8{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.a9{
+    background-color: rgb(0, 119, 255);
+}
+
+.body__footer-d {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 56rem;
+}

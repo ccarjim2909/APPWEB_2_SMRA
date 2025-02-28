@@ -1,0 +1,93 @@
+.body {
+    background-image: url(../imgs/fondo.jpg);
+    background-position: center;
+    color: white;
+}
+
+.body1 {
+    background-color: #181818;
+    color: white;
+}
+
+.body__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.body__main__section__h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.body__main__section__a--horda__imagen {
+    width: 20rem;
+    height: 20rem;
+    margin-right: 10rem;
+    opacity: 70%;
+}
+
+.body__main__section__a--alianza__imagen {
+    width: 20rem;
+    height: 20rem;
+    opacity: 70%;
+}
+
+.body__main__section__imagen--fuera{
+    opacity: 70%;
+}
+
+.body__main__btn--login{
+    border-radius: 0.45rem;
+    width: 10rem;
+    background-color: rgb(124, 6, 6);
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.body__main__p{
+    font-size: 1.2rem;
+}
+
+.body__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40rem;
+}
+
+.body__footer__texto {
+    font-size: 1rem;
+    color: white(255, 255, 255);
+}
+
+.body__footer-r {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 33.5rem;
+}
+
+.body__footer-s {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 51.5rem;
+}
+
+.body__footer-i {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28.5rem;
+}
+
+.body__footer-f {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 19rem;
+}
