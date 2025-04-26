@@ -3,20 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --color-principal: rgba(255, 255, 255, 0.8);
+    --color-letra: #333;
+    --fuente: "Roboto", sans-serif;;
+}
   
 html {  /* Estas dos son necesarias para que ocupe toda la pantalla la imagen de fondo y pueda centrar la calculadora en medio*/
     height: 100%;
-  }
+}
 
 body { 
 height: 100%;
 }
 
+  
+
 
 /* Body */
 
 .body { 
-    margin-top: 4rem;
+    font-family: var(--fuente);
     display: flex;  /* Disposicion de todo un poco*/
     flex-direction: column;
     align-items: center;
@@ -25,7 +33,6 @@ height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; /* Esto es para que no se repita la imagen, solo sea 1*/
-    overflow: hidden; /* Esto he tenido que buscarlo porque se me quedaba un hueco en blanco abajo del todo y no sabia quitarlo*/
 }
 
 /* Header */
@@ -38,8 +45,8 @@ height: 100%;
 
 .body__header__h1 { /* Aqui modificamos nuestro titulo "Calculadora X "*/
     font-size: 2rem;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    color: var(--color-letra);
+    background-color: var(--color-principal); /* Fondo blanco semitransparente */
     padding-top: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
@@ -52,7 +59,7 @@ height: 100%;
     margin-top: 0.5rem;
     font-size: 0.9rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    background-color: var(--color-principal); /* Fondo blanco semitransparente */
     padding-top: 0.3rem;
     padding-right: 0.8rem;
     padding-bottom: 0.3rem;
@@ -97,7 +104,7 @@ height: 100%;
     border: none;
     border-radius: 0.5rem;
     background-color: #eaeaea;
-    color: #333;
+    color: var(--color-letra);
 }
 
 /* Botones */
@@ -114,7 +121,7 @@ height: 100%;
     border: none;
     border-radius: 0.5rem; 
     background-color: #f0f0f0;
-    color: #333;
+    color: var(--color-letra);
 }
 
 .body__main__calculadora__btn:hover { /* Pasar el raton por encima se ponen algo mas oscuros*/
@@ -124,7 +131,7 @@ height: 100%;
 /* Botones de calculo */
 .body__main__calculadora__btn--operacion { /* Colores de los botones*/
     background-color: #ffc107;
-    color: black;
+    color: var(--color-letra);
 }
 
 .body__main__calculadora__btn--operacion:hover { /* Pasar el raton por encima se ponen algo mas oscuros*/
